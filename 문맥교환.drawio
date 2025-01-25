@@ -1,9 +1,63 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.8">
   <diagram name="페이지-1" id="PZ_6nykymGh9q-E8eAjL">
-    <mxGraphModel>
+    <mxGraphModel dx="1230" dy="1368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5xW4vZEtH3FDGC0lIfEH-5" value="타이머 인터럽트,&lt;div&gt;입출력 요청 system call&lt;/div&gt;" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=0;glass=0;dashed=1;comic=0;sketch=1;jiggle=2;fillStyle=solid;curveFitting=1;strokeColor=#23445d;strokeWidth=5;align=center;verticalAlign=middle;arcSize=24;fontFamily=Comic Sans MS;fontSize=24;fontColor=default;labelBackgroundColor=default;fillColor=#bac8d3;" edge="1" parent="1" source="5xW4vZEtH3FDGC0lIfEH-1" target="5xW4vZEtH3FDGC0lIfEH-4">
+          <mxGeometry x="0.035" y="-35" relative="1" as="geometry">
+            <mxPoint x="480" y="225" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xW4vZEtH3FDGC0lIfEH-1" value="사용자 모드" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#bac8d3;strokeColor=#23445d;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=default;align=center;glass=0;dashed=1;sketch=1;jiggle=2;fillStyle=solid;curveFitting=1;strokeWidth=5;verticalAlign=middle;perimeterSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5xW4vZEtH3FDGC0lIfEH-3" value="사용자 모드" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#bac8d3;strokeColor=#23445d;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=default;align=center;glass=0;dashed=1;sketch=1;jiggle=2;fillStyle=solid;curveFitting=1;strokeWidth=5;verticalAlign=middle;perimeterSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="160" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5xW4vZEtH3FDGC0lIfEH-8" style="edgeStyle=none;shape=connector;rounded=1;comic=0;sketch=1;jiggle=2;fillStyle=solid;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;glass=0;dashed=1;strokeColor=#23445d;strokeWidth=5;align=center;verticalAlign=middle;arcSize=24;fontFamily=Comic Sans MS;fontSize=24;fontColor=default;labelBackgroundColor=default;endArrow=classic;fillColor=#bac8d3;" edge="1" parent="1" source="5xW4vZEtH3FDGC0lIfEH-4" target="5xW4vZEtH3FDGC0lIfEH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xW4vZEtH3FDGC0lIfEH-4" value="커널 모드" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;align=center;glass=0;dashed=1;sketch=1;jiggle=2;fillStyle=solid;curveFitting=1;strokeWidth=5;verticalAlign=middle;perimeterSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="630" y="160" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5xW4vZEtH3FDGC0lIfEH-9" value="사용자 프로세스 A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=#CC6600;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="75" y="303" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5xW4vZEtH3FDGC0lIfEH-10" value="사용자 프로세스 B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=#4D9900;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="313" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5xW4vZEtH3FDGC0lIfEH-11" value="인터럽트,&lt;div&gt;system call&lt;/div&gt;" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=0;glass=0;dashed=1;comic=0;sketch=1;jiggle=2;fillStyle=solid;curveFitting=1;strokeColor=#23445d;strokeWidth=5;align=center;verticalAlign=middle;arcSize=24;fontFamily=Comic Sans MS;fontSize=24;fontColor=default;labelBackgroundColor=default;fillColor=#bac8d3;" edge="1" parent="1" source="5xW4vZEtH3FDGC0lIfEH-12" target="5xW4vZEtH3FDGC0lIfEH-15">
+          <mxGeometry x="0.029" y="-35" relative="1" as="geometry">
+            <mxPoint x="490" y="475" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xW4vZEtH3FDGC0lIfEH-12" value="사용자 모드" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#bac8d3;strokeColor=#23445d;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=default;align=center;glass=0;dashed=1;sketch=1;jiggle=2;fillStyle=solid;curveFitting=1;strokeWidth=5;verticalAlign=middle;perimeterSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="60" y="410" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5xW4vZEtH3FDGC0lIfEH-13" value="사용자 모드" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#bac8d3;strokeColor=#23445d;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=default;align=center;glass=0;dashed=1;sketch=1;jiggle=2;fillStyle=solid;curveFitting=1;strokeWidth=5;verticalAlign=middle;perimeterSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="410" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5xW4vZEtH3FDGC0lIfEH-14" style="edgeStyle=none;shape=connector;rounded=1;comic=0;sketch=1;jiggle=2;fillStyle=solid;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;glass=0;dashed=1;strokeColor=#23445d;strokeWidth=5;align=center;verticalAlign=middle;arcSize=24;fontFamily=Comic Sans MS;fontSize=24;fontColor=default;labelBackgroundColor=default;endArrow=classic;fillColor=#bac8d3;" edge="1" parent="1" source="5xW4vZEtH3FDGC0lIfEH-15" target="5xW4vZEtH3FDGC0lIfEH-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5xW4vZEtH3FDGC0lIfEH-15" value="커널 모드" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;align=center;glass=0;dashed=1;sketch=1;jiggle=2;fillStyle=solid;curveFitting=1;strokeWidth=5;verticalAlign=middle;perimeterSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="640" y="410" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5xW4vZEtH3FDGC0lIfEH-16" value="사용자 프로세스 A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=#CC6600;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="85" y="553" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5xW4vZEtH3FDGC0lIfEH-18" value="사용자 프로세스 A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=#CC6600;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="565" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5xW4vZEtH3FDGC0lIfEH-19" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.4_point_star_2;dx=0.8;rounded=1;shadow=0;glass=0;comic=0;sketch=1;jiggle=2;fillStyle=solid;curveFitting=1;strokeColor=#d6b656;strokeWidth=5;align=center;arcSize=24;fontFamily=Comic Sans MS;fontSize=24;labelBackgroundColor=default;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="920" y="150" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5xW4vZEtH3FDGC0lIfEH-20" value="&lt;font style=&quot;&quot;&gt;문맥교환!&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=#CCCC00;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="915" y="260" width="110" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
