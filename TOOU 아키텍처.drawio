@@ -121,7 +121,7 @@
           <mxGeometry x="481" y="-81" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="a6FXS9pBdcAtF2i3Z6Sl-29" value="Adapter" style="rounded=1;whiteSpace=wrap;html=1;rotation=0;arcSize=0;" parent="1" vertex="1">
-          <mxGeometry x="529" y="291" width="93" height="39" as="geometry" />
+          <mxGeometry x="520" y="298" width="93" height="39" as="geometry" />
         </mxCell>
         <mxCell id="a6FXS9pBdcAtF2i3Z6Sl-35" value="WebClient" style="whiteSpace=wrap;html=1;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="485" y="373" width="100" height="40" as="geometry" />
@@ -183,9 +183,9 @@
         <mxCell id="FfjCo3caQySOGgSb6Kr1-28" value="Out" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="280.5" y="474" width="50" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="FfjCo3caQySOGgSb6Kr1-29" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=2.92;curved=1;width=16;exitX=0.952;exitY=0.212;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="FfjCo3caQySOGgSb6Kr1-29" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=2.92;curved=1;width=16;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="633.00344" y="346.1169999999998" as="sourcePoint" />
+            <mxPoint x="623" y="340" as="sourcePoint" />
             <mxPoint x="766" y="383.12" as="targetPoint" />
           </mxGeometry>
         </mxCell>
